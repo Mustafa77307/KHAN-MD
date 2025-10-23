@@ -2,10 +2,11 @@
 
 // Deploy From New Repository ✅ 
 
-// KHAN-MD version 5.0 ❤️
+// LORD-MUSTAFA-X version 5.0 ❤️
 
-// Thanks For Chosing KHAN MD 🔥
+// Thanks For Chosing LORD-MUSTAFA-X 🔥
 
-// Made with ♥️ By JawadTech 
+// Made with ♥️ By LORD-MUSTAFA-X
 
 // Powered By LORD-MUSTAFA-X 2025 🚀
+//𓆰CROWN𓂍PRINCE
