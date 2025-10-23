@@ -1,213 +1,166 @@
 {
-  "name": "KHAN-MD",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
-  "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["KHAN-XMD"],
+  "name": "LORD-MUSTAFA-X",
+  "description": "Advanced WhatsApp Bot 💀 Created & Owned by Prince Mustafa",
+  "logo": "https://files.catbox.moe/7zfdcq.jpg",
+  "keywords": ["LORD-MUSTAFA-X", "MustafaBot", "BaileysBot"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "Paste your WhatsApp session ID here.",
       "required": true,
       "value": ""
-    },  
-    
+    },
     "STICKER_NAME": {
-      "description": "type your sticker pack name.",
+      "description": "Type your sticker pack name.",
       "required": false,
-      "value": "KHAN-MD"
-    }, 
-      
+      "value": "LORD-MUSTAFA-X 💀"
+    },
     "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "description": "Set your bot prefix (example: . or !)",
       "required": false,
       "value": "."
     },
-    
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "Select bot mode: public / private / inbox / group.",
       "required": false,
       "value": "public"
-      
     },
-
-     "ANTI_DELETE": {
-      "description": "set true for show deleted messages.",
+    "ANTI_DELETE": {
+      "description": "Show deleted messages (true/false).",
       "required": false,
-      "value": "true"  
+      "value": "true"
     },
-    
     "ALWAYS_ONLINE": {
-      "description": "Make it true if want always online.",
+      "description": "Keep bot always online.",
       "required": false,
-      "value": "false"  
-    },    
-   
+      "value": "false"
+    },
     "AUTO_REPLY": {
-      "description": "Make it true if you want automatic reply.",
+      "description": "Auto reply messages.",
       "required": false,
-      "value": "false"
-    }, 
-
+      "value": "true"
+    },
     "AUTO_STICKER": {
-      "description": "Make it true if you want automatic sticker.",
+      "description": "Convert images to stickers automatically.",
       "required": false,
-      "value": "false"
-    }, 
-
-
+      "value": "true"
+    },
     "AUTO_STATUS_SEEN": {
-      "description": "Make it true for automatic status seen.",
+      "description": "Automatically view statuses.",
       "required": true,
       "value": "true"
-    }, 
-
+    },
     "AUTO_STATUS_REACT": {
-      "description": "make it true for automatic status reaction or like.",
+      "description": "Automatically react on statuses.",
       "required": true,
       "value": "true"
-    }, 
-
+    },
     "AUTO_STATUS_REPLY": {
-      "description": "Make it true for auto reply msg on status seen.",
-      "required": true,
-      "value": "false"
-    }, 
-
-    "AUTO_STATUS_MSG": {
-      "description": "Type custom message on status reply",
-      "required": true,
-      "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
-   
-     }, 
-    
-    "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
-}, 
-
-    "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
-      "required": false,
-      "value": "92310344XXXX"
-
-    }, 
-
-    "BOT_NAME": {
-      "description": "Type here the bot name.",
-      "required": false,
-      "value": "KHAN-MD"
-
-      }, 
-
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
+      "description": "Reply automatically to viewed statuses.",
       "required": true,
       "value": "true"
-      
     },
-
-     "ANTI_LINK_KICK": {
-      "description": "Make it true if you want bot auto remove group link.",
+    "AUTO_STATUS_MSG": {
+      "description": "Custom status reply message.",
+      "required": true,
+      "value": "*👀 Seen by LORD-MUSTAFA-X 💀⚡*"
+    },
+    "OWNER_NAME": {
+      "description": "Bot Owner Name.",
+      "required": false,
+      "value": "Prince Mustafa 💀"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's WhatsApp number.",
+      "required": false,
+      "value": "92342758XXXX"
+    },
+    "BOT_NAME": {
+      "description": "Bot display name.",
+      "required": false,
+      "value": "LORD-MUSTAFA-X 💀"
+    },
+    "ANTI_LINK": {
+      "description": "Block group invite links.",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_LINK_KICK": {
+      "description": "Kick users who send links.",
       "required": true,
       "value": "false"
-      
     },
-    
     "ANTI_BAD": {
-      "description": "Make it true if you want bot auto delete bad words.",
+      "description": "Delete bad words automatically.",
       "required": false,
       "value": "false"
     },
-
-   "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
+    "MENTION_REPLY": {
+      "description": "Reply when someone mentions you.",
+      "required": false,
+      "value": "true"
+    },
+    "DESCRIPTION": {
+      "description": "Bot tagline or footer message.",
+      "required": false,
+      "value": "*© Powered by Prince Mustafa 💀*"
+    },
+    "DELETE_LINKS": {
+      "description": "Remove links from chat automatically.",
       "required": false,
       "value": "false"
     },
-    
-    "MENU_IMAGE_URL": {
-      "description": "add url for mention reply and menu if want.",
-      "required": false,
-      "value": "https://files.catbox.moe/7zfdcq.jpg"
-    },
-    
-     "DESCRIPTION": {
-      "description": "add caption for menu and other",
-      "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*"
-    },
-
-      "DELETE_LINKS": {
-      "description": "remove links from group automatically without removing member",
-      "required": false,
-      "value": "false"
-    },
-    
     "AUTO_RECORDING": {
-      "description": "Make it true if you want auto recoding.",
+      "description": "Show recording status automatically.",
       "required": false,
       "value": "false"
     },
-
     "AUTO_TYPING": {
-      "description": "Make it true if you want auto typing.",
+      "description": "Show typing status automatically.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
-
     "AUTO_REACT": {
-      "description": "Make it true if you want react on every message.",
+      "description": "React to every message.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
-    
     "CUSTOM_REACT": {
-      "description": "Make it true if you want custom reactions.",
+      "description": "Enable custom emoji reactions.",
       "required": false,
-      "value": "false"
-      
-    }, 
-    
+      "value": "true"
+    },
     "CUSTOM_REACT_EMOJIS": {
-      "description": "put here custom react react emojis.",
+      "description": "Custom emojis for reactions.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
-    }, 
-    
+      "value": "💀,🔥,⚡,👑,❤️"
+    },
     "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
+      "description": "Where to resend deleted messages (same/inbox).",
       "required": false,
       "value": "inbox"
-    }, 
-
-    "ADMIN_EVENTS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": false,
-      "value": "false"
     },
-
-    "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
+    "ADMIN_EVENTS": {
+      "description": "Notify promotions/demotions in groups.",
       "required": false,
       "value": "true"
     },
-
+    "WELCOME": {
+      "description": "Enable welcome/goodbye messages.",
+      "required": false,
+      "value": "true"
+    },
     "READ_MESSAGE": {
-      "description": "Make it true if you want bot read your all sms just now.",
+      "description": "Automatically mark messages as read.",
       "required": false,
       "value": "false"
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
-  
