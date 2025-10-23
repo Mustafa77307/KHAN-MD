@@ -1,12 +1,42 @@
-// deploy repo is closed no longer available for any type of deployment 👀
+const darkMenu = `
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+⚡ *LORD-MUSTAFA-X 💀* ⚡
+🔥 “Born To Rule — Not To Follow.” 🔥
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 
-// Deploy From New Repository ✅ 
+╔═══《 👑 *MAIN COMMANDS* 👑 》═══╗
+💀 .alive         » Bot status check  
+⚡ .owner         » Show owner info  
+🔥 .help          » Command list  
+🧠 .runtime       » Bot uptime  
+📶 .ping          » Connection speed  
 
-// LORD-MUSTAFA-X version 5.0 ❤️
+╔═══《 💫 *FUN & TOOLS* 💫 》═══╗
+🎭 .sticker       » Convert image to sticker  
+🖼️ .toimg         » Sticker to image  
+🎶 .song           » Download song by name  
+📸 .ss             » Screenshot from link  
+💬 .quote          » Random life quote  
+🤖 .ai             » Chat with AI mode  
 
-// Thanks For Chosing LORD-MUSTAFA-X 🔥
+╔═══《 ⚔️ *OWNER ZONE* ⚔️ 》═══╗
+👑 .mode public/private  
+📢 .broadcast      » Send message to all  
+♻️ .restart        » Restart bot  
+🧩 .update         » Update bot version  
+🚫 .ban / .unban   » Manage users  
 
-// Made with ♥️ By LORD-MUSTAFA-X
+╔═══《 💥 *EXTRA FEATURES* 💥 》═══╗
+💬 .antidelete     » See deleted msgs  
+🔗 .antilink       » Remove group links  
+👁️ .autostatus     » Auto view status  
+❤️ .autoreact      » React on all msgs  
+🎭 .autosticker    » Auto sticker mode  
 
-// Powered By LORD-MUSTAFA-X 2025 🚀
-//𓆰CROWN𓂍PRINCE
+╚═══《 💀 *LORD-MUSTAFA-X 💀* 》═══╝
+🖤 “No Mercy — No Limits.”  
+© Powered by *Prince Mustafa ☠️*
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+`;
+
+await conn.sendMessage(from, { text: darkMenu });
